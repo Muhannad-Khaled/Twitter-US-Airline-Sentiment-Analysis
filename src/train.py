@@ -14,7 +14,7 @@ nltk.download("stopwords", quiet=True)
 stop_words = set(stopwords.words("english"))
 
 # --- 1. Load Dataset ---
-# لازم تكون حاطط الملف في data/Tweets.csv (من Kaggle)
+
 df = pd.read_csv("data/Tweets.csv")
 
 # --- 2. Use only needed columns ---
